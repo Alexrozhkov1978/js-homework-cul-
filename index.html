@@ -7,13 +7,13 @@
     <title>My calculator</title>
 </head>
 <body>
-    <h1> This is "my" version of a simple calculator </h1>
+    <h1> This is light version of a simple calculator </h1>
     <br>
     <h3> The calculator can’t count more than two to degree 53 - 1 (the maximum safe integer in JavaScript). So, the minimum value is -(to degree 53 - 1) </h3>
       
     
     <br>
-    <label> Enter only digits here, please:
+    <label> Input and output field
         <input class = "display" type="text" />   <!--readonly -->
     </label> 
     <br>
@@ -49,6 +49,14 @@
         <button class = "digits">)</button>
         <button id = "butminus">+-</button>
         <button id = "butdel"><=(del)</button>
+    <br>
+    <br>
+        <button id = "butmemorylist">Add to memory list</button>
+    <br>
+    <h4> Programm will crash if you entered something like '2*2*/=' or '(2-1(' or '2.2..+1/' </h4>
+    <h4> It made for simple and correct calculations </h4>
+    <h4> Expression in memory: </h4>
+    <h5> </h5>
     <script src="js/index.js"></script>
     </body>
 </html>

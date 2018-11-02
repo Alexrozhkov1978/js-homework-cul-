@@ -1,0 +1,29 @@
+
+
+
+
+
+
+
+/*function checkCrash (ells) {
+    let altDispVal =[];
+    for (let i = 1; i < ells.length; i++) {
+        if (ells[i] === '/' || ells[i] === '*'||ells[i] === '-'||ells[i] === '+'){ 
+            altDispVal.push ('sign');
+            alert (ells[i]);
+        } else {
+            if (ells[i] === '.'){
+            altDispVal.push ('dot');
+            }
+            else {
+                if (ells[i] === '('){
+                altDispVal.push ('parenthesesOpen');
+                }
+                else if (ells[i] === ')'){
+                    altDispVal.push ('parenthesesClose');
+                    }
+                }
+        altDispVal.push ('digit');
+        }
+*/
+
